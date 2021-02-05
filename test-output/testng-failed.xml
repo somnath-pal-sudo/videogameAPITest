@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TCAll.TC001_Get_VideoGameAPI">
+        <methods>
+          <include name="TC002_Post_VideoGameAPI"/>
+          <include name="TC004_updateVideogame"/>
+        </methods>
+      </class> <!-- TCAll.TC001_Get_VideoGameAPI -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
